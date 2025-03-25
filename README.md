@@ -63,6 +63,7 @@ This module renders a dialog to reload the application if there is a version upd
 
 3. The module compares the received version from the api with the `currentVersion` prop from user's package.json version.
 4. If there is a mismatch, a dialog appears prompting the user to reload the page.
+   <img src="preview.png" alt="preview" width="700">
 
 ## Usage
 
