@@ -68,8 +68,11 @@ This module renders a dialog to reload the application if there is a version upd
 ## Usage
 
 ```jsx
-<ReloadDialog
-  currentVersion="1.0.0"
+import AppRefresh from 'check-appn-version'
+import pkg from '../package.json'
+
+<AppRefresh
+  currentVersion={pkg.version}
   fileName="version.json"
   btnName="Update Now"
   dialogInactivityTimeout={180000}
