@@ -1,0 +1,20 @@
+{
+  "name": "check-appn-version",
+  "version": "2.0.3",
+  "description": "Package to check the version of the app",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Omkar Kyatham",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
